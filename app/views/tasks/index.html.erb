@@ -13,6 +13,7 @@
 <table>
   <thead>
     <tr>
+      <th>T-minus</th>
       <th>Title</th>
       <th>Date</th>
       <th>Time</th>
@@ -29,6 +30,7 @@
     <% if current_user.email == task.user.email %>
 
           <tr>
+            <td><%= task.date - Date.today %></td>
             <td><%= task.title %></td>
             <td><%= task.date %></td>
             <td><%= task.time %></td>

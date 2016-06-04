@@ -6,6 +6,7 @@ class TasksController < ApplicationController
   def index
 
     @tasks = Task.order('user_id ASC').reorder('date ASC')
+    
 
   end
 
