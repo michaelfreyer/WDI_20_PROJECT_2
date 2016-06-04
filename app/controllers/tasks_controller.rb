@@ -5,7 +5,7 @@ class TasksController < ApplicationController
   # GET /tasks.json
   def index
 
-    @tasks = Task.order('user_id ASC').reorder('date DESC')
+    @tasks = Task.order('user_id ASC').reorder('date ASC')
 
   end
 
