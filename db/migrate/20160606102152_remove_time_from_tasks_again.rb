@@ -1,5 +1,5 @@
 class RemoveTimeFromTasksAgain < ActiveRecord::Migration
   def change
-    remove_column :tasks_agains, :time, :date
+    remove_column :tasks, :time, :date
   end
 end
