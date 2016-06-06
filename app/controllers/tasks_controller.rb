@@ -3,6 +3,14 @@ class TasksController < ApplicationController
 
   # GET /tasks
   # GET /tasks.json
+
+def googleCal
+  
+    
+   redirect_to tasks_url
+
+end
+
   def index
 
     @tasks = Task.order('user_id ASC').reorder('date ASC')

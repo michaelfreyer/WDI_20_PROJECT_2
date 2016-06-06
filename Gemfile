@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 
+gem 'googlecalendar'
+gem 'icalendar'
+
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'

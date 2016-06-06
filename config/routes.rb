@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get 'help', to: "static_pages#help"
 
+  get 'tasks/:id/googleCal', to: "tasks#googleCal", as: "gCal"
+
   root "static_pages#home"
 
 end

@@ -42,6 +42,9 @@
             <td><%= link_to 'Show', task %></td>
             <td><%= link_to 'Edit', edit_task_path(task) %></td>
             <td><%= link_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            <td><%= link_to 'Add to Google Cal', gCal_path(task) %></td>
+            <td><%= link_to 'Add to iCal', task %></td>
+            <td><%= link_to 'Add to Outlook', task %></td>
           </tr>
         <% end %>
     <%end %>
