@@ -2,8 +2,11 @@ source 'https://rubygems.org'
 
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
+gem 'action_smser'
 
-gem 'googlecalendar'
+
+
+# gem 'googlecalendar'
 gem 'icalendar'
 
 gem 'devise'

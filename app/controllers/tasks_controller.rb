@@ -16,18 +16,28 @@ def iCal
     end
 
    cal.publish
-
-
    render text: cal.to_ical, content_type: 'text/calendar'
     
 end
 
 
+def sms
 
 
+    @task = Task.find(params[:id])
+
+    smsMessage = "#{@task.user.email}, you have #{(@task.date - Date.today).to_s.chop.chop.to_i} day(s) till your #{@task.category} task:#{@task.title}. Are you ready?!?!"
+
+
+    sms = TestSms.hello_user(@task.user.mobile,"Remy-App",smsMessage)
+
+    puts sms
+    sms.deliver
+
+    @task = nil
+    redirect_to tasks_url
 
 end
-
 
   def index
 

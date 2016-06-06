@@ -11,6 +11,11 @@ Rails.application.routes.draw do
 
   get 'tasks/:id/iCal', to: "tasks#iCal", as: "iCal"
 
+
+  get 'tasks/:id/sms', to: "tasks#sms", as: "sms"
+
+
+
   root "static_pages#home"
 
 end

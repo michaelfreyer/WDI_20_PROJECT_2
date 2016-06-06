@@ -1,6 +1,6 @@
 <div class='login'>
   <% if current_user %>
-     <%= current_user.email %>
+     <%= link_to current_user.email, edit_user_registration_path(current_user)  %>
      <%= link_to "Log out", destroy_user_session_path, method: :delete %>
   <% else %>
      <%= link_to "Sign In", new_user_session_path %>
@@ -43,6 +43,7 @@
             <td><%= link_to 'Edit', edit_task_path(task) %></td>
             <td><%= link_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' } %></td>
             <td><%= link_to 'Add to iCal',iCal_path(task) , :format => :ics %></td>
+            <td><%= link_to 'SMS ME',sms_path(task) %></td>
           </tr>
         <% end %>
     <%end %>
