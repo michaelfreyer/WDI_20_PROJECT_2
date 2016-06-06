@@ -1,0 +1,20 @@
+{
+  "name": "WDI_20_PROJECT_2",
+  "homepage": "https://github.com/michaelfreyer/WDI_20_PROJECT_2",
+  "authors": [
+    "Michael Freyer <michael.freyer@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
