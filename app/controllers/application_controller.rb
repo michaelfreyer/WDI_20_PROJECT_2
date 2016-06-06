@@ -4,12 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
 
-  def icon_category(type)
-
-    
-
-  end
-
 
   before_action :configure_permitted_parameters, if: :devise_controller?
 
@@ -24,7 +18,21 @@ class ApplicationController < ActionController::Base
     def after_sign_in_path_for(resource)
       tasks_path
     end
+end
 
 
+def icon_category(type)
+
+  if type == "work"
+    "fa fa-beer"
+  elsif type == "life"
+    "fa fa-bicycle"
+  elsif type == "fun"
+    "fa fa-diamond"
+  elsif type == "vip"
+    "fa fa-gamepad"
+  else
+    "fa fa-exclamation"
+  end   
 
 end
