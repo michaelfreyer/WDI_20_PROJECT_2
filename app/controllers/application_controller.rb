@@ -36,3 +36,35 @@ def icon_category(type)
   end   
 
 end
+
+
+def time_till_task(days)
+
+    if days <= 1
+      "today"
+    elsif days <= 2
+      "one-day"
+    elsif days <= 3
+      "two-day"
+    else
+      "chill"
+    end   
+
+  end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

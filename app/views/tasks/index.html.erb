@@ -30,7 +30,8 @@
 
     <% if current_user.email == task.user.email %>
 
-          <tr>
+          <tr class="<%= time_till_task( (task.date - Date.today).to_s.chop.chop.to_i )%>">
+
             <td><%= (task.date - Date.today).to_s.chop.chop.to_i %></td>
             <td><%= task.title %></td>
             <td><%= task.date %></td>
