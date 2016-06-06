@@ -9,7 +9,7 @@ Rails.application.routes.draw do
 
   get 'help', to: "static_pages#help"
 
-  get 'tasks/:id/googleCal', to: "tasks#googleCal", as: "gCal"
+  get 'tasks/:id/iCal', to: "tasks#iCal", as: "iCal"
 
   root "static_pages#home"
 

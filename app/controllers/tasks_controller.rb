@@ -4,16 +4,14 @@ class TasksController < ApplicationController
   # GET /tasks
   # GET /tasks.json
 
-def googleCal
+def iCal
   
-    
+    @task = Task.find(params[:id])
     # Create a calendar with an event (standard method)
     cal = Icalendar::Calendar.new
     cal.event do |e|
-      e.dtstart     = Icalendar::Values::Date.new('20050428')
-      e.dtend       = Icalendar::Values::Date.new('20050429')
-      e.summary     = "Meeting with the man."
-      e.description = "Have a long lunch meeting and decide nothing..."
+      e.dtstart     = Icalendar::Values::Date.new(@task.date)
+      e.summary     = "#{@task.category} #{@task.title}"
       e.ip_class    = "PRIVATE"
     end
 
@@ -23,6 +21,13 @@ def googleCal
    render text: cal.to_ical, content_type: 'text/calendar'
     
 end
+
+
+
+
+
+end
+
 
   def index
 
