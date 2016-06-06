@@ -11070,3 +11070,4 @@ Completed 200 OK in 73ms (Views: 68.0ms | ActiveRecord: 3.4ms)
 
 
 Started GET "/assets/font-awesome/fontawesome-webfont-2932abf996373e87fbf2e950876b1962f1b57db954a1643ea68831d9fbb74da4.woff2?v=4.6.2" for ::1 at 2016-06-06 11:17:20 +0100
+  [1m[36mTask Load (1.0ms)[0m  [1mSELECT  "tasks".* FROM "tasks"  ORDER BY "tasks"."id" DESC LIMIT 1[0m
