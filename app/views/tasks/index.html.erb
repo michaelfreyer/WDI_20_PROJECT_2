@@ -34,7 +34,7 @@
             <td><%= (task.date - Date.today).to_s.chop.chop.to_i %></td>
             <td><%= task.title %></td>
             <td><%= task.date %></td>
-            <td><%= task.time %></td>
+            <td><%= task.time.strftime("%H:%M") %></td>
             <td><%= task.category %></td>
             <td><i class="<%= icon_category(task.category) %>" aria-hidden="true"></i></td>
             <td><%= task.user.email %></td>
