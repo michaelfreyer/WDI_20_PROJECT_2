@@ -23,7 +23,26 @@
  @import "/bower_components/animate.css/animate.css";
 
  body {
-  background-color: #4F5D75;
+  font-family: 'Slabo 27px', serif;
+ }
+
+
+ body { 
+   background: url(/images/bg_2.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+ }
+
+ .btn-primary{
+  background-color: transparent;
+  border: none;
+ }
+
+ .box-me {
+  // border: 1px solid black;
+  height: 50px;
  }
 
  .top-spacer {
@@ -63,17 +82,76 @@
   text-align: center;
  }
 
+.task-row {
+  height: 50px;
+}
+
+
+
 // http://callmenick.com/post/various-css-input-text-styles
 
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}
+
  .style-5  {
+
+   font-size: 20px;
+   text-align: center;
+   color: white;
    padding: 10px;
-   border: solid 1px #fff;
+   border: none;
    box-shadow: inset 1px 1px 2px 0 #707070;
    transition: box-shadow 0.3s;
-   width: 100%
+   width: 100%;
+   background-color: transparent;
  }
 
  .style-5 :focus,
  .style-5 .focus {
    box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+ }
+
+ .go-right{
+  text-align: right;
+ }
+
+ .go-left{
+  text-align: left;
+ }
+
+ .options{
+  color: white;
+ }
+
+ a { color: inherit; } 
+
+ a:link {
+     text-decoration: none;
+     color: none;
+ }
+
+ a:visited {
+     text-decoration: none;
+     color: none; 
+ }
+
+ a:hover {
+     text-decoration: underline;
+ }
+
+ a:active {
+     text-decoration: underline;
  }

@@ -1,26 +1,36 @@
 // Place all the styles related to the Tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-body {
-  background-color: orange;
+
+.fix-margin{
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .today {
 
   color: red;
-
+  border: solid 3px red;
+  margin: 10px 10px;
+  padding: 11px;
 }
 
 .one-day {
 
   color: orange;
-
+  border: solid 3px orange;
+  margin: 10px 10px;
+  padding: 11px;
 
 }
 
 .two-day {
 
   color: yellow;
+  border: solid 3px yellow;
+  margin: 10px 10px;
+  padding: 11px;
+
 
 
 }
@@ -28,5 +38,20 @@ body {
 .chill {
 
   color: green;
+  border: solid 3px green;
+
+  margin: 10px 10px;
+  padding: 11px;
+
+}
+
+.task-left{
+  background-color: green;
+  height: 150px;
+}
+
+.task-done{
+  background-color: red;
+  height: 150px;
 
 }

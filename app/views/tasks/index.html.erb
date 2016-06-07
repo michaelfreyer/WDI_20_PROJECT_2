@@ -1,14 +1,87 @@
-<div class='login'>
-  <% if current_user %>
-     <%= link_to current_user.email, edit_user_registration_path(current_user)  %>
-     <%= link_to "Log out", destroy_user_session_path, method: :delete %>
-  <% else %>
-     <%= link_to "Sign In", new_user_session_path %>
-     <%= link_to "Register", new_user_registration_path %>
-  <% end %>
+ 
+ <div class="row box-me">
+
+    <div class="col-xs-1 go-left">
+        <% if current_user %>
+        <a href= <%=edit_user_registration_path(current_user) %> ><i class="fa fa-user" aria-hidden="true"></i></a>
+
+        <% else %>
+           <%= link_to "Sign In", new_user_session_path %>
+           <%= link_to "Register", new_user_registration_path %>
+        <% end %>
+    </div>
+
+    <div class="col-xs-3 go-left">  
+      <div class='login'>
+      <%= link_to "Log out", destroy_user_session_path, method: :delete %>
+        
+      </div>
+    </div>
+
+    <div class="col-xs-6 center-me box-me"></div>  
+
+    <div class="col-xs-1 go-right">
+      <a href= <%= new_task_path%> ><i class="fa fa-pencil" aria-hidden="true"></i></a>
+
+
+    </div>
 </div>
 
-<h1>Listing Tasks</h1>
+<div class="row center-me">
+
+    <div class="col-xs-6 task-left"> 
+
+    <div><h2>To-Do</h2>
+    <%= current_user.tasks.length %>
+    </div>
+
+
+    </div>
+
+    <div class="col-xs-6 task-done"> 
+
+    <div><h2>Overdue</h2>
+    <%=  %>
+    </div>
+
+
+
+    </div>
+
+
+</div>
+
+
+
+ <% @tasks.each do |task| %>
+
+     <% if current_user.email == task.user.email %>
+    <!-- top of the task -->
+       
+       <div class="row box-me <%= time_till_task( (task.date - Date.today).to_s.chop.chop.to_i )%>">
+
+         <!-- category icon  -->
+          <div class="col-xs-2 center-me box-me"><i class="<%= icon_category(task.category) %>" aria-hidden="true"></i></div>
+
+          <!-- display days till I'm due -->
+          <div class="col-xs-2 center-me box-me"><%= (task.date - Date.today).to_s.chop.chop.to_i %></div>
+
+              
+            <div class="col-xs-6 center-me box-me"><a href="<%= edit_task_path(task) %>"><%= task.title %></a></div>
+            <div class="col-xs-1 center-me box-me">
+
+            <%= link_to 'X', task, method: :delete, data: { confirm: 'Are you sure?' } %>
+
+
+            </div>
+
+        </div>
+      <% end %>
+  
+<%end %>
+
+
+<!-- 
 
 <table class="table">
   <thead>
@@ -26,9 +99,13 @@
 
   <tbody>
     
+
     <% @tasks.each do |task| %>
 
     <% if current_user.email == task.user.email %>
+
+
+
 
           <tr class="<%= time_till_task( (task.date - Date.today).to_s.chop.chop.to_i )%>">
 
@@ -56,4 +133,5 @@
 
 
 
-<%= link_to 'New Task', new_task_path %>
+<%= link_to 'New Task', new_task_path %> -->
+
