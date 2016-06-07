@@ -19,3 +19,22 @@
 
  @import "font-awesome-sprockets";
  @import "font-awesome";
+
+ @import "/bower_components/animate.css/animate.css";
+
+ body {
+  background-color: #4F5D75;
+ }
+
+ .top-spacer {
+    border: 1px black solid;
+    height: 275px;
+    width: 100%;
+    text-align: center;
+ }
+
+ .bottom-spacer {
+    border: 1px black solid;
+    height: 175px;
+    width: 100%
+ }
