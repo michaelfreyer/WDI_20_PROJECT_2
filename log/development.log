@@ -61497,3 +61497,2136 @@ Processing by Devise::RegistrationsController#edit as
   [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
   Rendered devise/registrations/edit.html.erb within layouts/application (1.9ms)
 Completed 200 OK in 85ms (Views: 83.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 18:33:18 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::RegistrationsController#edit as 
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 427ms (Views: 399.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 18:33:18 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 18:33:19 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 18:33:19 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 18:33:19 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 18:33:19 +0100
+
+
+Started GET "/assets/application.self-67789fa7224ace16524041311a99a356f968630ba1bf7c5a9349694e1edf93ad.css?body=1" for ::1 at 2016-06-08 18:33:19 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 18:33:19 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 18:33:19 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 18:33:19 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:33:19 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:33:19 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:33:19 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 18:33:19 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 18:33:46 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 45ms (Views: 42.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 18:33:46 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 18:33:46 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 18:33:46 +0100
+
+
+Started GET "/assets/application.self-67789fa7224ace16524041311a99a356f968630ba1bf7c5a9349694e1edf93ad.css?body=1" for ::1 at 2016-06-08 18:33:46 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 18:33:46 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 18:33:46 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 18:33:46 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 18:33:46 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 18:33:46 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:33:46 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:33:46 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:33:46 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 18:33:46 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 18:33:53 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 41ms (Views: 39.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 18:33:53 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 18:33:53 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 18:33:53 +0100
+
+
+Started GET "/assets/application.self-67789fa7224ace16524041311a99a356f968630ba1bf7c5a9349694e1edf93ad.css?body=1" for ::1 at 2016-06-08 18:33:53 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 18:33:53 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 18:33:53 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 18:33:53 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 18:33:53 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 18:33:53 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:33:53 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:33:53 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:33:53 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 18:33:53 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 18:34:04 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 62ms (Views: 60.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 18:34:04 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 18:34:04 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 18:34:04 +0100
+
+
+Started GET "/assets/application.self-67789fa7224ace16524041311a99a356f968630ba1bf7c5a9349694e1edf93ad.css?body=1" for ::1 at 2016-06-08 18:34:04 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 18:34:04 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 18:34:04 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 18:34:04 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 18:34:04 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:34:04 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 18:34:04 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 18:34:04 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:34:04 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:34:04 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 18:36:06 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 1912ms (Views: 1910.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 18:36:08 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 18:36:08 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 18:36:08 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 18:36:08 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 18:36:08 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 18:36:08 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 18:36:08 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 18:36:08 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:36:08 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 18:36:08 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 18:36:08 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:36:08 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:36:08 +0100
+
+
+Started GET "/tasks" for ::1 at 2016-06-08 18:36:22 +0100
+Processing by TasksController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTask Load (0.4ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1  [["user_id", 2]]
+  [1m[36mTask Load (0.7ms)[0m  [1mSELECT "tasks".* FROM "tasks"  ORDER BY date ASC[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered tasks/index.html.erb within layouts/application (60.8ms)
+Completed 200 OK in 118ms (Views: 110.5ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-35fa8302dd7d3d191ebb7acac543efcfa2b85a0da573b3ab45cc122ffcc45ce5.woff?v=4.6.2" for ::1 at 2016-06-08 18:36:22 +0100
+
+
+Started GET "/tasks/19/edit" for ::1 at 2016-06-08 18:36:23 +0100
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  Rendered tasks/_form.html.erb (8.0ms)
+  Rendered tasks/edit.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 50ms (Views: 48.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks" for ::1 at 2016-06-08 18:36:31 +0100
+Processing by TasksController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[35mTask Load (0.5ms)[0m  SELECT "tasks".* FROM "tasks"  ORDER BY date ASC
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered tasks/index.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 55ms (Views: 51.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 18:36:33 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 77ms (Views: 72.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 18:36:45 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 71ms (Views: 68.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 18:36:45 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 18:36:45 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 18:36:45 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 18:36:45 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 18:36:45 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 18:36:45 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 18:36:45 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 18:36:45 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:36:45 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 18:36:45 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:36:45 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 18:36:45 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:36:45 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 18:36:50 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 51ms (Views: 48.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 18:36:50 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 18:36:50 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 18:36:50 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 18:36:50 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 18:36:50 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 18:36:50 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 18:36:50 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 18:36:50 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:36:50 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 18:36:50 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 18:36:50 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:36:50 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:36:50 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 18:38:24 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 18:38:24 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 18:38:24 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 18:38:24 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 18:38:24 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 18:38:24 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 18:38:24 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 18:38:24 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 18:38:24 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:38:24 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 18:38:24 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:38:24 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:38:24 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 18:38:24 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 18:38:41 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 50ms (Views: 47.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 18:38:41 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 18:38:41 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 18:38:41 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 18:38:41 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 18:38:41 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 18:38:41 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 18:38:41 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 18:38:41 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:38:41 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 18:38:41 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 18:38:41 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:38:41 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 18:38:41 +0100
+
+
+Started GET "/tasks" for ::1 at 2016-06-08 18:42:33 +0100
+Processing by TasksController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1  [["user_id", 2]]
+  [1m[36mTask Load (0.5ms)[0m  [1mSELECT "tasks".* FROM "tasks"  ORDER BY date ASC[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered tasks/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 56ms (Views: 53.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-35fa8302dd7d3d191ebb7acac543efcfa2b85a0da573b3ab45cc122ffcc45ce5.woff?v=4.6.2" for ::1 at 2016-06-08 18:42:33 +0100
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1[0m
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1  [["user_id", 6]]
+  [1m[36mTask Load (2.4ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 6]]
+  [1m[35mTask Load (2.0ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1  [["user_id", 6]]
+  [1m[36mTask Load (2.3ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 6]]
+  [1m[35mTask Load (1.0ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1  [["user_id", 6]]
+  [1m[36mTask Load (2.0ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 6]]
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1  [["user_id", 6]]
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 6]]
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1  [["user_id", 6]]
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 6]]
+  [1m[35mTask Load (0.4ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1  [["user_id", 6]]
+  [1m[36mTask Load (1.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 6]]
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1  [["user_id", 6]]
+  [1m[36mTask Load (1.9ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 6]]
+  [1m[35mTask Load (0.4ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1 AND "tasks"."id" = $2 LIMIT 1  [["user_id", 6], ["id", 1]]
+  [1m[36mTask Load (0.9ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 6]]
+  [1m[35mTask Load (3.6ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1  [["user_id", 6]]
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 6]]
+  [1m[35mUser Load (3.9ms)[0m  SELECT  "users".* FROM "users"  ORDER BY "users"."id" DESC LIMIT 1
+  [1m[36mTask Load (0.6ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 6]]
+  [1m[35mTask Load (3.9ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1 AND "tasks"."id" = $2 LIMIT 1  [["user_id", 6], ["id", 1]]
+
+
+Started GET "/tasks" for ::1 at 2016-06-08 19:19:07 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TasksController#index as HTML
+  [1m[35mUser Load (2.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTask Load (0.6ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[35mTask Load (0.6ms)[0m  SELECT "tasks".* FROM "tasks"  ORDER BY date ASC
+  [1m[36mUser Load (2.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered tasks/index.html.erb within layouts/application (73.0ms)
+Completed 200 OK in 529ms (Views: 499.2ms | ActiveRecord: 13.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:19:08 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:19:08 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:19:08 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:19:08 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:19:08 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:19:08 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:19:08 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:19:08 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:19:08 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:19:08 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:19:08 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:19:08 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:19:08 +0100
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-35fa8302dd7d3d191ebb7acac543efcfa2b85a0da573b3ab45cc122ffcc45ce5.woff?v=4.6.2" for ::1 at 2016-06-08 19:19:08 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:19:16 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 87ms (Views: 83.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:23:40 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 50ms (Views: 47.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:23:40 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:23:40 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:23:40 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:23:40 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:23:40 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:23:40 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:23:40 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:23:40 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:23:40 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:23:40 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:23:40 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:23:40 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:23:40 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:23:43 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 54ms (Views: 52.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:23:43 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:23:43 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:23:43 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:23:43 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:23:43 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:23:43 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:23:43 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:23:43 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:23:43 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:23:43 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:23:43 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:23:43 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:23:43 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:24:05 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.4ms)
+
+SyntaxError (/Users/michaelfreyer/development/WDI_20_PROJECT_2/app/views/devise/registrations/edit.html.erb:37: syntax error, unexpected '<'
+  </div>
+   ^
+/Users/michaelfreyer/development/WDI_20_PROJECT_2/app/views/devise/registrations/edit.html.erb:40: unknown regexp option - h
+unmatched close parenthesis: /div>
+<% end );@output_buffer.safe_append='
+
+<h3>Cancel my account</
+/Users/michaelfreyer/development/WDI_20_PROJECT_2/app/views/devise/registrations/edit.html.erb:40: syntax error, unexpected tINTEGER, expecting ')'
+<h3>Cancel my account</h3>
+                         ^
+/Users/michaelfreyer/development/WDI_20_PROJECT_2/app/views/devise/registrations/edit.html.erb:42: syntax error, unexpected '<'
+<p>Unhappy? ></p>
+              ^
+/Users/michaelfreyer/development/WDI_20_PROJECT_2/app/views/devise/registrations/edit.html.erb:42: unterminated regexp meets end of file):
+  app/views/devise/registrations/edit.html.erb:37: syntax error, unexpected '<'
+  app/views/devise/registrations/edit.html.erb:40: unknown regexp option - h
+  app/views/devise/registrations/edit.html.erb:40: syntax error, unexpected tINTEGER, expecting ')'
+  app/views/devise/registrations/edit.html.erb:42: syntax error, unexpected '<'
+  app/views/devise/registrations/edit.html.erb:42: unterminated regexp meets end of file
+
+
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:24:20 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 64ms (Views: 62.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:24:20 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:24:20 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:24:20 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:24:20 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:24:20 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:24:20 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:24:20 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:24:20 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:24:20 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:24:20 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:24:20 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:24:20 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:24:20 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:24:31 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 51ms (Views: 49.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:24:31 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:24:31 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:24:31 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:24:31 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:24:31 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:24:31 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:24:31 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:24:31 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:24:31 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:24:31 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:24:31 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:24:31 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:24:31 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:25:37 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 51ms (Views: 48.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:25:37 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:25:37 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:25:37 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:25:37 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:25:37 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:25:37 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:25:37 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:25:37 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:25:37 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:25:37 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:25:37 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:25:37 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:25:37 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:26:28 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 49ms (Views: 46.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:26:28 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:26:28 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:26:28 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:26:28 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:26:28 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:26:28 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:26:28 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:26:28 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:26:28 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:26:28 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:26:28 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:26:28 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:26:28 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:26:49 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 62ms (Views: 60.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:26:49 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:26:49 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:26:49 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:26:49 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:26:49 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:26:49 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:26:49 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:26:49 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:26:49 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:26:49 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:26:49 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:26:49 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:26:49 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:27:10 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:27:10 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:27:10 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:27:10 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:27:10 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:27:10 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:27:10 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:27:10 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:27:10 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:27:10 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:27:10 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:27:10 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:27:10 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:27:10 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:27:19 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 68ms (Views: 66.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:27:19 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:27:19 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:27:19 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:27:19 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:27:19 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:27:19 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:27:19 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:27:19 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:27:19 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:27:19 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:27:19 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:27:19 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:27:19 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:27:39 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 54ms (Views: 51.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:27:39 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:27:39 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:27:39 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:27:39 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:27:39 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:27:39 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:27:39 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:27:39 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:27:39 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:27:39 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:27:39 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:27:39 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:27:39 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:27:54 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 66ms (Views: 64.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:27:54 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:27:54 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:27:54 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:27:54 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:27:54 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:27:54 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:27:54 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:27:54 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:27:54 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:27:54 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:27:54 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:27:54 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:27:54 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:28:03 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 52ms (Views: 50.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:28:03 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:28:03 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:28:03 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:28:03 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:28:03 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:28:03 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:28:03 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:28:03 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:28:03 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:28:03 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:28:03 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:28:03 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:28:03 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:28:34 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 58ms (Views: 56.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:28:34 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:28:34 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:28:34 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:28:34 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:28:34 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:28:34 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:28:34 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:28:34 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:28:34 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:28:34 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:28:34 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:28:34 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:28:34 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:29:36 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:29:36 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:29:36 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:29:36 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:29:36 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:29:36 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:29:36 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:29:36 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:29:36 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:29:36 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:29:36 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:29:36 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:29:36 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:29:36 +0100
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-35fa8302dd7d3d191ebb7acac543efcfa2b85a0da573b3ab45cc122ffcc45ce5.woff?v=4.6.2" for ::1 at 2016-06-08 19:29:36 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:29:44 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 62ms (Views: 60.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:29:44 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:29:44 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:29:44 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:29:44 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:29:44 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:29:44 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:29:44 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:29:44 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:29:44 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:29:44 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:29:44 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:29:44 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:29:44 +0100
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-35fa8302dd7d3d191ebb7acac543efcfa2b85a0da573b3ab45cc122ffcc45ce5.woff?v=4.6.2" for ::1 at 2016-06-08 19:29:44 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:30:11 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 55ms (Views: 53.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:30:11 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:30:11 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:30:11 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:30:11 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:30:11 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:30:11 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:30:11 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:30:11 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:30:11 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:30:11 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:30:11 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:30:11 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:30:11 +0100
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-35fa8302dd7d3d191ebb7acac543efcfa2b85a0da573b3ab45cc122ffcc45ce5.woff?v=4.6.2" for ::1 at 2016-06-08 19:30:11 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:30:24 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (19.8ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"tasks", :format=>"2"} missing required keys: [:id]):
+    53:         
+    54:       <div class="col-xs-8 col-md-4 col-lg-4 center-me">
+    55: 
+    56:           <a href="<%=task_path%>"><i class="fa fa-undo" aria-hidden="true"></i></a>
+    57: 
+    58:       </div>
+    59: 
+  app/views/devise/registrations/edit.html.erb:56:in `block in _app_views_devise_registrations_edit_html_erb___3094251568102515791_70301731927860'
+  app/views/devise/registrations/edit.html.erb:2:in `_app_views_devise_registrations_edit_html_erb___3094251568102515791_70301731927860'
+
+
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.4ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (61.1ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (49.2ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (117.7ms)
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:30:30 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:30:30 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:30:30 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:30:30 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:30:30 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:30:30 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:30:30 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:30:30 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:30:30 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:30:30 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:30:30 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:30:30 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:30:30 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:30:30 +0100
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-35fa8302dd7d3d191ebb7acac543efcfa2b85a0da573b3ab45cc122ffcc45ce5.woff?v=4.6.2" for ::1 at 2016-06-08 19:30:30 +0100
+
+
+Started GET "/tasks" for ::1 at 2016-06-08 19:30:32 +0100
+Processing by TasksController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"  ORDER BY date ASC
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered tasks/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 54ms (Views: 51.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:30:36 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 54ms (Views: 52.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:30:48 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 62ms (Views: 60.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:30:48 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:30:48 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:30:48 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:30:48 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:30:48 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:30:48 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:30:48 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:30:48 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:30:48 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:30:48 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:30:48 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:30:48 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:30:48 +0100
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-35fa8302dd7d3d191ebb7acac543efcfa2b85a0da573b3ab45cc122ffcc45ce5.woff?v=4.6.2" for ::1 at 2016-06-08 19:30:48 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:31:01 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 52ms (Views: 50.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:31:01 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:31:01 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:31:01 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:31:01 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:31:01 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:31:01 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:31:01 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:31:01 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:31:01 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:31:01 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:31:01 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:31:01 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:31:01 +0100
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-35fa8302dd7d3d191ebb7acac543efcfa2b85a0da573b3ab45cc122ffcc45ce5.woff?v=4.6.2" for ::1 at 2016-06-08 19:31:01 +0100
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:31:07 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 59ms (Views: 57.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:31:07 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:31:07 +0100
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:31:07 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:31:07 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:31:07 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:31:07 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:31:07 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:31:07 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:31:07 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:31:07 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:31:07 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:31:07 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:31:07 +0100
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-35fa8302dd7d3d191ebb7acac543efcfa2b85a0da573b3ab45cc122ffcc45ce5.woff?v=4.6.2" for ::1 at 2016-06-08 19:31:07 +0100
+
+
+Started GET "/tasks" for ::1 at 2016-06-08 19:31:18 +0100
+Processing by TasksController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"  ORDER BY date ASC
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered tasks/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 47ms (Views: 44.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users/edit.2" for ::1 at 2016-06-08 19:31:20 +0100
+Processing by Devise::RegistrationsController#edit as 
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  Rendered devise/registrations/edit.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 71ms (Views: 69.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks" for ::1 at 2016-06-08 19:31:23 +0100
+Processing by TasksController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1  [["user_id", 2]]
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks"  ORDER BY date ASC[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered tasks/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 51ms (Views: 47.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-08 19:31:24 +0100
+Processing by TasksController#new as HTML
+  Rendered tasks/_form.html.erb (6.3ms)
+  Rendered tasks/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 51ms (Views: 49.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2016-06-08 19:31:37 +0100
+Processing by TasksController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1  [["user_id", 2]]
+  [1m[36mTask Load (0.4ms)[0m  [1mSELECT "tasks".* FROM "tasks"  ORDER BY date ASC[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+  Rendered tasks/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 51ms (Views: 49.4ms | ActiveRecord: 1.4ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2016-06-08 19:31:43 +0100
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"w+/6P1qxQqd1HJRNcUPHPQgZLOv/J+7FpqNb4ReA0TLQ9AlRS9MbVV/dHrd53qEB8WSd+m8CWllsuIcNv/pl3g=="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-06-08 19:31:43 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-06-08 19:31:45 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 46ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-08 19:31:48 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2016-06-08 19:31:49 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 46ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-08 19:31:56 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 39ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-06-08 19:31:57 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 50ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-08 19:32:00 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 40ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2016-06-08 19:32:01 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/password/new" for ::1 at 2016-06-08 19:32:03 +0100
+Processing by Devise::PasswordsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-06-08 19:32:42 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/sessions/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2016-06-08 19:33:01 +0100
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2jO+ppDBDICL6fDeSPeQRkY0f1q68X23+5uIx1SLvqkJvANTz3DHBiGkdmxykY19z8SUyCtCp9/CluFsD/0bFQ==", "user"=>{"email"=>"john@john.com", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "john@john.com"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5  [["last_sign_in_at", "2016-06-08 17:05:52.164035"], ["current_sign_in_at", "2016-06-08 18:33:01.771260"], ["sign_in_count", 44], ["updated_at", "2016-06-08 18:33:01.773164"], ["id", 2]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 167ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/tasks" for ::1 at 2016-06-08 19:33:01 +0100
+Processing by TasksController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[35mTask Load (0.4ms)[0m  SELECT "tasks".* FROM "tasks"  ORDER BY date ASC
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered tasks/index.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 52ms (Views: 49.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/tasks" for ::1 at 2016-06-08 19:40:55 +0100
+Processing by TasksController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[35mTask Load (0.4ms)[0m  SELECT "tasks".* FROM "tasks"  ORDER BY date ASC
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered tasks/index.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 46ms (Views: 42.6ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:40:55 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:40:55 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:40:55 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:40:55 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:40:55 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:40:55 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:40:55 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:40:55 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:40:55 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:40:55 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:40:55 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:40:55 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:40:55 +0100
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-35fa8302dd7d3d191ebb7acac543efcfa2b85a0da573b3ab45cc122ffcc45ce5.woff?v=4.6.2" for ::1 at 2016-06-08 19:40:55 +0100
+
+
+Started GET "/tasks/19/iCal" for ::1 at 2016-06-08 19:40:57 +0100
+Processing by TasksController#iCal as HTML
+  Parameters: {"id"=>"19"}
+  [1m[35mTask Load (0.7ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT 1  [["id", 19]]
+  Rendered text template (0.0ms)
+Completed 200 OK in 9ms (Views: 1.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tasks/19/iCal" for ::1 at 2016-06-08 19:40:57 +0100
+Processing by TasksController#iCal as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mTask Load (0.4ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tasks/20/iCal" for ::1 at 2016-06-08 19:41:10 +0100
+Processing by TasksController#iCal as HTML
+  Parameters: {"id"=>"20"}
+  [1m[35mTask Load (0.4ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT 1  [["id", 20]]
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tasks/20/iCal" for ::1 at 2016-06-08 19:41:10 +0100
+Processing by TasksController#iCal as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks/19/iCal" for ::1 at 2016-06-08 19:41:27 +0100
+Processing by TasksController#iCal as HTML
+  Parameters: {"id"=>"19"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT 1  [["id", 19]]
+  Rendered text template (0.0ms)
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks/19/iCal" for ::1 at 2016-06-08 19:41:27 +0100
+Processing by TasksController#iCal as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mTask Load (0.3ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks" for ::1 at 2016-06-08 19:43:31 +0100
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/michaelfreyer/development/WDI_20_PROJECT_2/app/views/tasks/index.html.erb:73: syntax error, unexpected tIDENTIFIER, expecting ')'
+...append=( link_to  "<i class="fa fa-calendar-plus-o" aria-hid...
+...                               ^
+/Users/michaelfreyer/development/WDI_20_PROJECT_2/app/views/tasks/index.html.erb:73: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...i class="fa fa-calendar-plus-o" aria-hidden="true"></i>"
+...                               ^
+/Users/michaelfreyer/development/WDI_20_PROJECT_2/app/views/tasks/index.html.erb:73: syntax error, unexpected keyword_true, expecting ')'
+...endar-plus-o" aria-hidden="true"></i>"
+...                               ^
+/Users/michaelfreyer/development/WDI_20_PROJECT_2/app/views/tasks/index.html.erb:74: syntax error, unexpected ',', expecting ')'
+, iCal_path(task) , :format => :ics );@output_buffer.safe_append='
+ ^
+/Users/michaelfreyer/development/WDI_20_PROJECT_2/app/views/tasks/index.html.erb:74: syntax error, unexpected ',', expecting ')'
+, iCal_path(task) , :format => :ics );@output_buffer.safe_append='
+                   ^):
+  app/views/tasks/index.html.erb:73: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/tasks/index.html.erb:73: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/views/tasks/index.html.erb:73: syntax error, unexpected keyword_true, expecting ')'
+  app/views/tasks/index.html.erb:74: syntax error, unexpected ',', expecting ')'
+  app/views/tasks/index.html.erb:74: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (59.9ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (50.1ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (128.0ms)
+
+
+Started GET "/tasks" for ::1 at 2016-06-08 19:44:04 +0100
+Processing by TasksController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"  ORDER BY date ASC
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered tasks/index.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:44:04 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:44:04 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:44:04 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:44:04 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:44:04 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:44:04 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:44:04 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:44:04 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:44:04 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:44:04 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:44:04 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:44:04 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:44:04 +0100
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-35fa8302dd7d3d191ebb7acac543efcfa2b85a0da573b3ab45cc122ffcc45ce5.woff?v=4.6.2" for ::1 at 2016-06-08 19:44:04 +0100
+
+
+Started GET "/tasks" for ::1 at 2016-06-08 19:45:54 +0100
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/michaelfreyer/development/WDI_20_PROJECT_2/app/views/tasks/index.html.erb:75: syntax error, unexpected keyword_end
+            '.freeze;@output_buffer.append=( end =>
+                                                ^
+/Users/michaelfreyer/development/WDI_20_PROJECT_2/app/views/tasks/index.html.erb:83: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;       end 
+                   ^
+/Users/michaelfreyer/development/WDI_20_PROJECT_2/app/views/tasks/index.html.erb:85: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;end 
+            ^
+/Users/michaelfreyer/development/WDI_20_PROJECT_2/app/views/tasks/index.html.erb:143: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/michaelfreyer/development/WDI_20_PROJECT_2/app/views/tasks/index.html.erb:145: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/tasks/index.html.erb:75: syntax error, unexpected keyword_end
+  app/views/tasks/index.html.erb:83: syntax error, unexpected keyword_end, expecting ')'
+  app/views/tasks/index.html.erb:85: syntax error, unexpected keyword_end, expecting ')'
+  app/views/tasks/index.html.erb:143: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/tasks/index.html.erb:145: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.2ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (60.2ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (52.9ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/michaelfreyer/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (125.5ms)
+
+
+Started GET "/tasks" for ::1 at 2016-06-08 19:46:48 +0100
+Processing by TasksController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[35mTask Load (0.4ms)[0m  SELECT "tasks".* FROM "tasks"  ORDER BY date ASC
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered tasks/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 48ms (Views: 46.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:46:48 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:46:48 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:46:48 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:46:48 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:46:48 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:46:48 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:46:48 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:46:48 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:46:48 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:46:48 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:46:48 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:46:48 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:46:48 +0100
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-35fa8302dd7d3d191ebb7acac543efcfa2b85a0da573b3ab45cc122ffcc45ce5.woff?v=4.6.2" for ::1 at 2016-06-08 19:46:48 +0100
+
+
+Started GET "/tasks/19/iCal" for ::1 at 2016-06-08 19:46:52 +0100
+Processing by TasksController#iCal as HTML
+  Parameters: {"id"=>"19"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT 1  [["id", 19]]
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks/19/iCal" for ::1 at 2016-06-08 19:46:52 +0100
+Processing by TasksController#iCal as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT 1[0m  [["id", 19]]
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks" for ::1 at 2016-06-08 19:48:17 +0100
+Processing by TasksController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 2]]
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"  ORDER BY date ASC
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+  Rendered tasks/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 45ms (Views: 43.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:48:17 +0100
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-08 19:48:17 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-08 19:48:17 +0100
+
+
+Started GET "/assets/application.self-7172791820b1856fcf468bc11fec036235526336b7ea256f58fd4e68c4cdad82.css?body=1" for ::1 at 2016-06-08 19:48:17 +0100
+
+
+Started GET "/assets/tasks.self-a606f4ffc9de789fd83a24f182057afe1cb758e19282c4262e07239935066f32.css?body=1" for ::1 at 2016-06-08 19:48:17 +0100
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-06-08 19:48:17 +0100
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-08 19:48:17 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-06-08 19:48:17 +0100
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:48:17 +0100
+
+
+Started GET "/assets/application.self-a1a74291c4c48f2f663a025ffa678498d6448b849a2d74c0ca25e39ee192c0a7.js?body=1" for ::1 at 2016-06-08 19:48:17 +0100
+
+
+Started GET "/assets/aap.self-33730d486d1dcdea8d868e99ea0e501f2b107134b5162e1f49a3808c8cf06991.js?body=1" for ::1 at 2016-06-08 19:48:17 +0100
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:48:17 +0100
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-08 19:48:17 +0100
+
+
+Started GET "/assets/font-awesome/fontawesome-webfont-35fa8302dd7d3d191ebb7acac543efcfa2b85a0da573b3ab45cc122ffcc45ce5.woff?v=4.6.2" for ::1 at 2016-06-08 19:48:17 +0100
