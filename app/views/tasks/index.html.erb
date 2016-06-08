@@ -27,7 +27,7 @@
     </div>
 </div>
 
-<div class="row center-me">
+<div id="fix-row" class="row center-me">
 
     <div class="col-xs-6 task-left"> 
 
@@ -58,17 +58,17 @@
      <% if current_user.email == task.user.email %>
     <!-- top of the task -->
        
-       <div class="row box-me <%= time_till_task( (task.date - Date.today).to_s.chop.chop.to_i )%>">
+       <div id="fix-row" class="row <%= time_till_task( (task.date - Date.today).to_s.chop.chop.to_i )%>">
 
          <!-- category icon  -->
-          <div class="col-xs-2 center-me box-me"><i class="<%= icon_category(task.category) %>" aria-hidden="true"></i></div>
+          <div class="col-xs-2 center-me"><i class="<%= icon_category(task.category) %>" aria-hidden="true"></i></div>
 
           <!-- display days till I'm due -->
-          <div class="col-xs-2 center-me box-me"><%= (task.date - Date.today).to_s.chop.chop.to_i %></div>
+          <div class="col-xs-2 center-me"><%= (task.date - Date.today).to_s.chop.chop.to_i %></div>
 
               
-            <div class="col-xs-6 center-me box-me"><a href="<%= edit_task_path(task) %>"><%= task.title %></a></div>
-            <div class="col-xs-1 center-me box-me">
+            <div class="col-xs-6 center-me"><a href="<%= edit_task_path(task) %>"><%= task.title %></a></div>
+            <div class="col-xs-1 center-me">
 
             <%= link_to 'X', task, method: :delete, data: { confirm: 'Are you sure?' } %>
 

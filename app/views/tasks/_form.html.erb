@@ -27,26 +27,34 @@
 </div>
 
 <div class="row">
-
-    <div class="col-md-2 col-lg-2 center-me"></div>
+    <div class="col-xs-1 col-md-4 col-lg-4 center-me rm-pad"></div>
         
-      <div class="col-xs-8 col-md-4 col-lg-4 center-me rm-pad">
+      <div class="col-xs-10 col-md-4 col-lg-4 center-me">
+          <div class="field">
+          <%= f.label :date %><br>
+          <%= f.date_select :date %>
+          </div>
+      </div>
+
+    <div class="col-xs-1 col-md-4 col-lg-4 center-me"></div>
+
+</div>
+
+<div class="row">
+    <div class="col-xs-2 col-md-4 col-lg-4 center-me rm-pad"></div>
+        
+      <div class="col-xs-8 col-md-4 col-lg-4 center-me">
         <div class="field">
-        <%= f.label :date %><br>
-        <%= f.date_select :date %>
+            <%= f.label :time %><br>
+            <%= f.time_select :time %>
         </div>
       </div>
 
-      <div class="col-xs-4 col-md-4 col-lg-4 center-me rm-pad">
-      <div class="field">
-        <%= f.label :time %><br>
-        <%= f.time_select :time %>
-      </div>
-      </div>
-
-    <div class=" col-md-2 col-lg-2 center-me"></div>
+    <div class="col-xs-2 col-md-4 col-lg-4 center-me"></div>
 
 </div>
+
+<br>
 
 <div class="row">
     <div class="col-xs-2 col-md-4 col-lg-4 center-me rm-pad"></div>
@@ -54,7 +62,9 @@
       <div class="col-xs-4 col-md-4 col-lg-4">
           <br>
           <div class="field">
-                    <br>
+          <div class="center-me">
+          <label >Category</label>
+          </div>
                       <div>
                         <input id="question1" type="radio" value="work" name="task[category]" class="with-font"  />
                         <label for="question1">Work</label>
@@ -77,7 +87,9 @@
       <div class="col-xs-4 col-md-4 col-lg-4">
           <br>
           <div class="field">
-                    <br>
+          <div class="center-me">
+          <label>Sms</label>
+          </div>
                       <div>
                         <input id="question5" type="radio" value="1 Mins" name="task[tminus]" class="with-font"  />
                         <label for="question5">1 Mins</label>
@@ -116,7 +128,7 @@
 
 </div>
 
-
+<br>
 
 <div class="row">
       <div class="col-xs-2 col-md-4 col-lg-4 center-me"></div>
@@ -125,13 +137,13 @@
 
           <div class="row center-me">
             <div class="col-xs-6">
-              <a href="<%= tasks_path %>"><i class="fa fa-undo" aria-hidden="true"></i></a>
+              <a href="<%= tasks_path %>"><i class="fa fa-undo fa-2x" aria-hidden="true"></i></a>
             </div>
               
             <div class="col-xs-6 center-me">
               <div class="actions center-me">
                     <button id="btnTimer" type="submit" class="login center-me">
-                    <i class="fa fa-check" aria-hidden="true"></i>
+                    <i class="fa fa-check fa-2x" aria-hidden="true"></i>
                     </button>            
               </div>
             </div>
@@ -143,7 +155,6 @@
         </div>
     <div class="col-xs-2 col-md-4 col-lg-4 center-me"></div>
 </div>
-
 
 
   <% end %>

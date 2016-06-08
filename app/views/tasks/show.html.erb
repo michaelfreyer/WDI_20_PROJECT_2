@@ -1,29 +1,113 @@
-<p id="notice"><%= notice %></p>
+<div class="row">
 
-<p>
-  <strong>Title:</strong>
-  <%= @task.title %>
-</p>
+    <div class="col-xs-2 col-md-4 col-lg-4 center-me"></div>
+        
+      <div class="col-xs-8 col-md-4 col-lg-4">
 
-<p>
-  <strong>Date:</strong>
-  <%= @task.date %>
-</p>
+        <div class="top-spacer-sign">
+          <h1 class="form-signin-heading"><%= notice %></h1>
+        </div>
 
-<p>
-  <strong>Time:</strong>
-  <%= @task.time.strftime("%H:%M") %>
-</p>
+      </div>
 
-<p>
-  <strong>T-Miuns:</strong>
-  <%= @task.tminus %>
-</p>
+    <div class="col-xs-2 col-md-4 col-lg-4 center-me"></div>
 
-<p>
-  <strong>Category:</strong>
-  <%= @task.category %>
-</p>
+</div>
 
-<%= link_to 'Edit', edit_task_path(@task) %> |
-<%= link_to 'Back', tasks_path %>
+<br>
+
+
+<div class="row">
+    <div class="col-xs-2 col-md-4 col-lg-4 center-me rm-pad"></div>
+        
+      <div class="col-xs-8 col-md-4 col-lg-4 center-me">
+        <div class="field">
+          <br>
+          <p>
+            <strong>Reminder:</strong>
+            <%= @task.title %>
+          </p>
+
+        </div>
+      </div>
+
+    <div class="col-xs-2 col-md-4 col-lg-4 center-me"></div>
+
+</div>
+
+<br>
+
+
+
+<div class="row">
+    
+        
+      <div class="col-xs-6 center-me">
+        <div class="field">
+         <p>
+           <strong>Date:</strong>
+           <%= @task.date %>
+         </p>
+
+
+        </div>
+      </div>
+
+      <div class="col-xs-6 center-me">
+        <div class="field">
+         <p>
+           <strong>Time:</strong>
+           <%= @task.time.strftime("%H:%M") %>
+         </p>
+        </div>
+      </div>
+
+    
+
+</div>
+
+
+
+<div class="row">
+    
+        
+      <div class="col-xs-6 center-me">
+        <div class="field">
+         <p>
+           <strong>Category:</strong>
+           <%= @task.category %>
+         </p>
+
+
+        </div>
+      </div>
+
+      <div class="col-xs-6 center-me">
+        <div class="field">
+         <p>
+           <strong>Remind @:</strong>
+           <%= (@task.time - @task.tminus).strftime("%H:%M") %>
+         </p>
+
+        </div>
+      </div>
+
+    
+
+</div>
+
+<br>
+
+
+
+<div class="row center-me">
+  <div class="col-xs-12">
+    <a href="<%= tasks_path %>"><i class="fa fa-check fa-5x" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+<br>
+<br>
+
+
+

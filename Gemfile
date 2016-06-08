@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'action_smser'
+gem 'delayed_job_active_record'
 
 
 
