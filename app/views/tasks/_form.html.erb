@@ -1,38 +1,152 @@
+<% if @task.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@task.errors.count, "error") %> prohibited this task from being saved:</h2>
 
-
-<%= form_for(@task) do |f| %>
-  <% if @task.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@task.errors.count, "error") %> prohibited this task from being saved:</h2>
-
-      <ul>
-      <% @task.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-  <div class="field">
-    <%= f.label :title %><br>
-    <%= f.text_field :title %>
-  </div>
-  <div class="field">
-    <%= f.label :date %><br>
-    <%= f.date_select :date %>
-  </div>
-  <div class="field">
-    <%= f.label :time %><br>
-    <%= f.time_select :time %>
-  </div>
-  <div class="field">
-    <%= f.label :category %><br>
-    <%= f.text_field :category %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
+    <ul>
+    <% @task.errors.full_messages.each do |message| %>
+      <li><%= message %></li>
+    <% end %>
+    </ul>
   </div>
 <% end %>
+
+<%= form_for(@task) do |f| %>
+
+<div class="row">
+    <div class="col-xs-2 col-md-4 col-lg-4 center-me rm-pad"></div>
+        
+      <div class="col-xs-8 col-md-4 col-lg-4 center-me">
+        <div class="field">
+          <br>
+          <%= f.text_field :title, placeholder: ":Title", class: "style-5" %>
+        </div>
+      </div>
+
+    <div class="col-xs-2 col-md-4 col-lg-4 center-me"></div>
+
+</div>
+
+<div class="row">
+
+    <div class="col-md-2 col-lg-2 center-me"></div>
+        
+      <div class="col-xs-8 col-md-4 col-lg-4 center-me rm-pad">
+        <div class="field">
+        <%= f.label :date %><br>
+        <%= f.date_select :date %>
+        </div>
+      </div>
+
+      <div class="col-xs-4 col-md-4 col-lg-4 center-me rm-pad">
+      <div class="field">
+        <%= f.label :time %><br>
+        <%= f.time_select :time %>
+      </div>
+      </div>
+
+    <div class=" col-md-2 col-lg-2 center-me"></div>
+
+</div>
+
+<div class="row">
+    <div class="col-xs-2 col-md-4 col-lg-4 center-me rm-pad"></div>
+        
+      <div class="col-xs-4 col-md-4 col-lg-4">
+          <br>
+          <div class="field">
+                    <br>
+                      <div>
+                        <input id="question1" type="radio" value="work" name="task[category]" class="with-font"  />
+                        <label for="question1">Work</label>
+                      </div>
+                      <div>
+                        <input id="question2" name="task[category]" type="radio" class="with-font" value="life"/>
+                        <label for="question2">Life</label>
+                      </div>
+                      <div>
+                        <input id="question3" name="task[category]" type="radio" class="with-font" value="fun"/>
+                        <label for="question3">Fun</label>
+                      </div>
+                      <div>
+                        <input id="question4" name="task[category]" type="radio" class="with-font" value="vip"/>
+                        <label for="question4">VIP</label>
+                      </div>
+          </div>
+      </div> 
+
+      <div class="col-xs-4 col-md-4 col-lg-4">
+          <br>
+          <div class="field">
+                    <br>
+                      <div>
+                        <input id="question1" type="radio" value="work" name="task[category]" class="with-font"  />
+                        <label for="question1">Work</label>
+                      </div>
+                      <div>
+                        <input id="question2" name="task[category]" type="radio" class="with-font" value="life"/>
+                        <label for="question2">Life</label>
+                      </div>
+                      <div>
+                        <input id="question3" name="task[category]" type="radio" class="with-font" value="fun"/>
+                        <label for="question3">Fun</label>
+                      </div>
+                      <div>
+                        <input id="question4" name="task[category]" type="radio" class="with-font" value="vip"/>
+                        <label for="question4">VIP</label>
+                      </div>
+          </div>
+      </div>
+
+    <div class="col-xs-2 col-md-4 col-lg-4 center-me"></div>
+
+</div>
+
+
+
+
+
+<div class="row">
+    <div class="col-xs-2 col-md-4 col-lg-4 center-me"></div>
+        
+      <div class="col-xs-8 col-md-4 col-lg-4 center-me">
+      
+      </div>
+
+    <div class="col-xs-2 col-md-4 col-lg-4 center-me"></div>
+
+</div>
+
+
+
+<div class="row">
+      <div class="col-xs-2 col-md-4 col-lg-4 center-me"></div>
+          
+        <div class="col-xs-8 col-md-4 col-lg-4">
+
+          <div class="row center-me">
+            <div class="col-xs-6">
+              <a href="<%= tasks_path %>"><i class="fa fa-undo" aria-hidden="true"></i></a>
+            </div>
+              
+            <div class="col-xs-6 center-me">
+              <div class="actions center-me">
+                    <button id="login" type="submit" class="center-me">
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                    </button>            
+              </div>
+            </div>
+
+       
+          <br />
+
+          </div>
+        </div>
+    <div class="col-xs-2 col-md-4 col-lg-4 center-me"></div>
+</div>
+
+
+
+  <% end %>
 
 
 

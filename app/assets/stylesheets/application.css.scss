@@ -26,14 +26,29 @@
   font-family: 'Slabo 27px', serif;
  }
 
-
- body { 
-   background: url(/images/bg_2.jpg) no-repeat center center fixed; 
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
+ .background-image {
+   background-image: url(/images/bg_2.jpg);
    background-size: cover;
+   display: block;
+   filter: blur(5px);
+   -webkit-filter: blur(5px);
+   height: 800px;
+   left: 0;
+   position: fixed;
+   right: 0;
+   z-index: 1;
  }
+
+ // body { 
+ //   background: url(/images/bg_2.jpg) no-repeat center center fixed; 
+ //   -webkit-background-size: cover;
+ //   -moz-background-size: cover;
+ //   -o-background-size: cover;
+ //   background-size: cover;
+
+
+    
+ // }
 
  .btn-primary{
   background-color: transparent;
@@ -50,6 +65,8 @@
     height: 275px;
     width: 100%;
     text-align: center;
+    border-radius: 3px;
+
  }
 
  .top-spacer-reg {
@@ -57,6 +74,8 @@
     height: 200px;
     width: 100%;
     text-align: center;
+    border-radius: 3px;
+
  }
 
  .top-spacer-sign {
@@ -64,6 +83,18 @@
     height: 200px;
     width: 100%;
     text-align: center;
+    border-radius: 3px;
+
+ }
+
+ .top-spacer-new{
+    border: 1px black solid;
+    height: 75px;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+
+
  }
 
  .bottom-spacer {
@@ -95,6 +126,10 @@
 }
 
 .fa-question-circle{
+  color: white;
+}
+
+.fa-check{
   color: white;
 }
 
@@ -156,6 +191,11 @@
   color: white;
  }
 
+ .rm-pad {
+  padding-left: 0px;
+  padding-right: 0px;
+ }
+
  a { color: inherit; } 
 
  a:link {
@@ -175,3 +215,74 @@
  a:active {
      text-decoration: underline;
  }
+
+
+
+
+
+ // https://codepen.io/rstrahl/pen/yyEYBx
+   
+
+
+ input[type=radio].with-font,
+ input[type=checkbox].with-font {
+     border: 0;
+     clip: rect(0 0 0 0);
+     height: 1px;
+     margin: -1px;
+     overflow: hidden;
+     padding: 0;
+     position: absolute;
+     width: 1px;
+ }
+     
+ input[type=radio].with-font ~ label:before,
+ input[type=checkbox].with-font ~ label:before {
+     font-family: FontAwesome;
+     display: inline-block;
+     content: "\f1db";
+     letter-spacing: 10px;
+     font-size: 1.2em;
+     color: #535353;
+     width: 1.4em;
+ }
+
+ input[type=radio].with-font:checked ~ label:before,
+ input[type=checkbox].with-font:checked ~ label:before  {
+     content: "\f00c";
+     font-size: 1.2em;
+     color: darkgreen;
+     letter-spacing: 5px;
+ }
+ input[type=checkbox].with-font ~ label:before {        
+     content: "\f096";
+ }
+ input[type=checkbox].with-font:checked ~ label:before {
+     content: "\f046";        
+     color: darkgreen;
+ }
+ input[type=radio].with-font:focus ~ label:before,
+ input[type=checkbox].with-font:focus ~ label:before,
+ input[type=radio].with-font:focus ~ label,
+ input[type=checkbox].with-font:focus ~ label
+ {                
+     color: green;
+ }
+
+ // http://codepen.io/aniketpant/pen/DsEve
+
+ .content {
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 3px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  // font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  top: 10px;
+  left: 0;
+  // position: fixed;
+  // margin-left: 20px;
+  // margin-right: 20px;
+  // right: 0;
+  z-index: 2;
+  padding: 0 10px;
+}
+ 
