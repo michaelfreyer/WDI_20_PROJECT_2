@@ -1,8 +1,14 @@
 $(function() {
-var test = $('.load-in');
-var test2 = $('.load-in-1');
+
        
-       
+var smsTimer = $("#btnTimer");
+
+smsTimer.on('click', function(){
+       alert("You clicked this");
+});
+
+// var test = $('.load-in');
+// var test2 = $('.load-in-1');
 
        // test.mouseenter( 
 
