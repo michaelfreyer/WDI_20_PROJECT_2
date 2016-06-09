@@ -1,5 +1,7 @@
 class TasksController < ApplicationController
   before_action :set_task, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!
+
 
   # GET /tasks
   # GET /tasks.json
@@ -40,6 +42,8 @@ def sms
 end
 
   def index
+
+
 
     @tasks = Task.order('user_id ASC').reorder('date ASC')    
 
