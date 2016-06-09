@@ -41,8 +41,7 @@ end
 
   def index
 
-    @tasks = Task.order('user_id ASC').reorder('date ASC')
-    
+    @tasks = Task.order('user_id ASC').reorder('date ASC')    
 
   end
 

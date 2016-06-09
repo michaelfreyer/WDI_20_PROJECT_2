@@ -75,7 +75,13 @@
         <div class="field">
          <p>
            <strong>Category:</strong>
+           <% if @task.category.nil? %>
+           <p>No Category</p>
+           <% else %>
            <%= @task.category %>
+
+           <% end %>
+           
          </p>
 
 
@@ -86,7 +92,12 @@
         <div class="field">
          <p>
            <strong>Remind @:</strong>
+           <% if @task.tminus.nil? %>
+           <p>No reminder</p>
+           <% else %>
            <%= (@task.time - @task.tminus).strftime("%H:%M") %>
+
+           <% end %>
          </p>
 
         </div>
