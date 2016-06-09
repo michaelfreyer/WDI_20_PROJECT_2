@@ -52,6 +52,28 @@ def time_till_task(days)
 
   end
 
+def overdue_tasks()
+
+
+  #  @counter = 0
+
+  #  @tasks.each do |task| 
+
+  #    if task.user.nil?
+
+  #    else
+
+  #     if current_user.email == task.user.email
+
+  #       (task.date - Date.today)
+
+  #     end
+  
+  #    end
+
+  # end
+
+end
 
 
 

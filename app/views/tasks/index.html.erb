@@ -42,6 +42,28 @@
 
     <div><h2>Overdue</h2>
     <%=  %>
+
+    <% @counter = 0 %>
+
+    <% @tasks.each do |task| %>
+
+    <% if task.user.nil? %>
+
+    <%   else %>
+
+    <%   if current_user.email == task.user.email && (task.date - Date.today).to_s.chop.chop.to_i < 0 %>
+
+          <% @counter = @counter + 1 %>
+
+    <%    end %>
+    
+    <%   end %>
+
+    <% end %>
+
+    <%= @counter %>
+
+
     </div>
 
 
