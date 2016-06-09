@@ -80,7 +80,11 @@
             <div class="col-xs-1 center-me">
 
             <%= link_to  '<i class="fa fa-calendar-plus-o" aria-hidden="true"></i>'.html_safe, iCal_path(task) , :format => :ics %>
-            <%= link_to 'X', task, method: :delete, data: { confirm: 'Are you sure?' } %>
+            <%= link_to '<i class="fa fa-trash-o" aria-hidden="true"></i>
+'.html_safe, task, method: :delete, data: { confirm: 'Are you sure?' } %>
+
+
+
 
             <%= link_to '<i class="fa fa-mobile" aria-hidden="true"></i>'.html_safe,sms_path(task) %>
 
