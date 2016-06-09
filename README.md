@@ -43,6 +43,13 @@ Remy is a mobile-first Ruby on Rails app with a Postgres database, using bootstr
 
 * CSS Animate
 
+# Wireframes
+<img src="http://i.imgur.com/dcczRnt.png" />
+
+
+# User Stories
+<img src="http://i.imgur.com/5Irlrhq.png" />
+
 
 # Screens
 
