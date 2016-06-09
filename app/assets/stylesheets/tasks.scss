@@ -14,14 +14,17 @@
 
 .today {
 
-  border: solid 3px red;
+  border: solid 2px red;
+  border-radius: 2px;
   margin: 10px 10px;
   padding: 11px;
 }
 
 .one-day {
 
-  border: solid 3px orange;
+  border: solid 2px orange;
+  border-radius: 2px;
+
   margin: 10px 10px;
   padding: 11px;
 
@@ -29,7 +32,9 @@
 
 .two-day {
 
-  border: solid 3px yellow;
+  border: solid 2px yellow;
+  border-radius: 2px;
+
   margin: 10px 10px;
   padding: 11px;
 
@@ -39,7 +44,9 @@
 
 .chill {
 
-  border: solid 3px green;
+  border: solid 2px green;
+  border-radius: 2px;
+
 
   margin: 10px 10px;
   padding: 11px;
@@ -47,12 +54,23 @@
 }
 
 .task-left{
+  padding-top: 15px;
+  border-radius: 100px;
   background-color: green;
   height: 150px;
 }
 
 .task-done{
+  padding-top: 15px;
+  border-radius: 100px;
   background-color: red;
   height: 150px;
 
 }
+
+.big-me{
+  font-size: 30px;
+}
+
+
+

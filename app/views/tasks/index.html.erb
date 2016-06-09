@@ -32,7 +32,9 @@
     <div class="col-xs-6 task-left"> 
 
     <div><h2>To-Do</h2>
-    <%= current_user.tasks.length %>
+    <div class="big-me">
+      <%= current_user.tasks.length %>
+    </div>
     </div>
 
 
@@ -41,7 +43,7 @@
     <div class="col-xs-6 task-done"> 
 
     <div><h2>Overdue</h2>
-    <%=  %>
+    <div class="big-me">
 
     <% @counter = 0 %>
 
@@ -64,6 +66,7 @@
     <%= @counter %>
 
 
+    </div>
     </div>
 
 
