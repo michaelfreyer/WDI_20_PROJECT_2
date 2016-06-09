@@ -80,6 +80,8 @@ test:
 #
 production:
   <<: *default
+
+  url: <%= ENV['DATABASE_URL'] %>
   database: remy_app_production
   username: remy_app
   password: <%= ENV['REMY_APP_DATABASE_PASSWORD'] %>
