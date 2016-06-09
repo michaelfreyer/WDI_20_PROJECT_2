@@ -11,19 +11,23 @@
   <title>RemyApp</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> 
   <%= csrf_meta_tags %>
 </head>
       <body>
             <main>
                 <div class="background-image"></div>
 
-                <div class="container">
-                <div class="row ">
+                <div class="container" >
+                <div class="row " >
 
                 <div class="col-xs-1"></div>
                 <div class="col-xs-10 content center-me">
+                <div id="primary-content">
+
                       <p class="alert"><%= alert %></p>  
                       <%= yield  %>
+                </div>
                 </div>
 
                 <div class="col-xs-1"></div>

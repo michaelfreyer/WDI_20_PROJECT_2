@@ -1,46 +1,32 @@
 $(function() {
 
        
-var smsTimer = $("#btnTimer");
-
-smsTimer.on('click', function(){
-       alert("You clicked this");
-});
-
-// var test = $('.load-in');
-// var test2 = $('.load-in-1');
-
-       // test.mouseenter( 
-
-       //  function()
-       //  {
-       //    test.addClass('animated pulse')
-       //  }
-       //      ).mouseleave( 
-
-       //      function(){
-       //        test.removeClass('animated pulse')
-       //      }
 
 
-       //    );
-
-       // test2.mouseenter( 
-
-       //  function()
-       //  {
-       //    test2.addClass('animated pulse')
-       //  }
-       //      ).mouseleave( 
-
-       //      function(){
-       //        test2.removeClass('animated pulse')
-       //      }
+        document.addEventListener('page:change', function() {
+            document.getElementById('primary-content').className += 'animated fadeIn';
+           
+          });
 
 
-       //    );
+
+        // $( "sign-in-link" ).click(function() {
+        //   $( "sign-in-link" ).fadeOut( "slow" );
+        // });
+
+       
+        // $( window ).addEventListener('page:change', function(){
 
 
+        // });
+ 
+       // document.addEventListener('page:before-change', function() {
+       //     
+          
+       //   });
+       
+
+       
 
  });
 

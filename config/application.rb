@@ -10,7 +10,7 @@ Bundler.require(*Rails.groups)
 module RemyApp
   class Application < Rails::Application
 
-    # config.assets.paths << Rails.root.join('vendor', 'assets', 'bower_components')
+    config.assets.paths << Rails.root.join('public', 'bower_components')
    
 
     # Settings in config/environments/* take precedence over those specified here.
